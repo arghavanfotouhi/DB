@@ -1,0 +1,35 @@
+﻿<Window x:Class="final.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid Background="#FFFEFFCB">
+        <DataGrid x:Name="datagrid"  Margin="312,56,10,157" Background="#FFDDFAB2"/>
+        <Button x:Name="InsertBtn" Content="Insert" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Width="82" Click="InsertBtn_Click" Background="#FFDDFAB2"/>
+        <Button x:Name="UpdateBtn" Content="Update" HorizontalAlignment="Left" Margin="530,318,0,0" VerticalAlignment="Top" Width="82" Click="UpdateBtn_Click_1" Background="#FFDDFAB2"/>
+        <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="691,318,0,0" VerticalAlignment="Top" Width="82" Click="DeleteBtn_Click" Background="#FFDDFAB2"/>
+        <Label Content="StudentId" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="FirstName" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="LastName" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="FatherName" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="10,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="10,251,0,0" VerticalAlignment="Top"/>
+        <Label Content="BirthDate" HorizontalAlignment="Left" Margin="10,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.104,0.23"/>
+        <Label Content="Instruments" HorizontalAlignment="Left" Margin="10,349,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fee" HorizontalAlignment="Left" Margin="10,398,0,0" VerticalAlignment="Top"/>
+        <Label Content="Student Table" HorizontalAlignment="Left" Margin="485,13,0,0" VerticalAlignment="Top" Width="113" Height="26"/>
+        <TextBox x:Name="StudentId_txt" HorizontalAlignment="Left" Margin="115,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+        <TextBox x:Name="FirstName_txt" HorizontalAlignment="Left" Margin="115,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22"/>
+        <TextBox x:Name="LastName_txt" HorizontalAlignment="Left" Margin="115,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22"/>
+        <TextBox x:Name="FatherName_txt" HorizontalAlignment="Left" Margin="115,177,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox  x:Name="Phone_txt" HorizontalAlignment="Left" Margin="115,221,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox x:Name="Address_txt" HorizontalAlignment="Left" Margin="115,264,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+        <TextBox x:Name="BirthDate_txt" HorizontalAlignment="Left" Margin="115,310,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+        <TextBox x:Name="Instruments_txt" HorizontalAlignment="Left" Margin="115,349,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox x:Name="Fee_txt" HorizontalAlignment="Left" Margin="115,393,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFFAFFD5">
+        <Button Click="Student" Content="Student" HorizontalAlignment="Left" Margin="213,32,0,0" VerticalAlignment="Top" Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Click="Teacher"  Content="Teacher" HorizontalAlignment="Left" Margin="213,79,0,0" VerticalAlignment="Top" Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Click="Class" Content="Class" HorizontalAlignment="Left" Margin="213,137,0,0" VerticalAlignment="Top"  Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Click="Instrument" Content="Instrument" HorizontalAlignment="Left" Margin="213,196,0,0" VerticalAlignment="Top" Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Click="Manager" Content="Manager" HorizontalAlignment="Left" Margin="213,348,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.044,0.442"  Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Click="Book" Content="Book" HorizontalAlignment="Left" Margin="213,248,0,0" VerticalAlignment="Top"  Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Button Content="Consert" HorizontalAlignment="Left" Margin="213,294,0,0" VerticalAlignment="Top"  Height="21" Width="101" Click="Button_Click" Background="#FFBCF4B9"/>
+        <Button Click="OfficeManager"  Content="OfficeManager" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top"  Height="20" Width="101" Background="#FFBCF4B9"/>
+        <Button  Click="Academy" Content="Academy" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top"  Height="21" Width="101" Background="#FFBCF4B9"/>
+        <Label Content="Tables" HorizontalAlignment="Left" Margin="41,44,0,0" VerticalAlignment="Top" Height="36" Width="95" Background="#FFFAFFD5"/>
+
+    </Grid>
+</Window>

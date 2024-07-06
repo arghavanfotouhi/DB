@@ -1,0 +1,30 @@
+﻿<Window x:Class="final.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="#FFFAFFD5">
+        <DataGrid x:Name="datagrid"  Margin="312,56,10,157" Background="#FFCBF287"/>
+        <Button x:Name="InsertBtn" Content="Insert" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Width="82" Click="InsertBtn_Click" Background="#FFCBF287"/>
+        <Button x:Name="UpdateBtn" Content="Update" HorizontalAlignment="Left" Margin="530,318,0,0" VerticalAlignment="Top" Width="82" Click="UpdateBtn_Click" Background="#FFCBF287"/>
+        <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="691,318,0,0" VerticalAlignment="Top" Width="82" Click="DeleteBtn_Click" Background="#FFCBF287"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="DateAndHour" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="TiketFee" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="OrchestraNum" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="StudentId" HorizontalAlignment="Left" Margin="10,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="Capacity" HorizontalAlignment="Left" Margin="13,275,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Consert Table" HorizontalAlignment="Left" Margin="485,13,0,0" VerticalAlignment="Top" Width="113" Height="26"/>
+        <TextBox x:Name="Address_txt" HorizontalAlignment="Left" Margin="115,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+        <TextBox x:Name="DateAndHour_txt" HorizontalAlignment="Left" Margin="115,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22" Background="White"/>
+        <TextBox x:Name="TiketFee_txt" HorizontalAlignment="Left" Margin="115,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22" Background="White"/>
+        <TextBox x:Name="OrchestraNum_txt" HorizontalAlignment="Left" Margin="115,177,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox  x:Name="StudentId_txt" HorizontalAlignment="Left" Margin="115,221,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox x:Name="Capacity_txt" HorizontalAlignment="Left" Margin="115,275,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+
+    </Grid>
+</Window>

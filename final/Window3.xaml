@@ -1,0 +1,39 @@
+﻿<Window x:Class="final.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid Background="#FFFEFFCB">
+        <DataGrid x:Name="datagrid"  Margin="312,56,10,157" Background="#FFDEF8AF"/>
+        <Button x:Name="InsertBtn" Content="Insert" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Width="82" Click="InsertBtn_Click" Background="#FFDEF8AF"/>
+        <Button x:Name="UpdateBtn" Content="Update" HorizontalAlignment="Left" Margin="530,318,0,0" VerticalAlignment="Top" Width="82" Click="UpdateBtn_Click_1" Background="#FFDEF8AF"/>
+        <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="691,318,0,0" VerticalAlignment="Top" Width="82" Click="DeleteBtn_Click" Background="#FFDEF8AF"/>
+
+        <Label Content="classNum" HorizontalAlignment="Left" Margin="16,3,0,0" VerticalAlignment="Top"/>
+        <Label Content="dayAndHour" HorizontalAlignment="Left" Margin="15,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="id" HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top"/>
+        <Label Content="studentId" HorizontalAlignment="Left" Margin="13,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="NumberOfSessions" HorizontalAlignment="Left" Margin="15,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tuition" HorizontalAlignment="Left" Margin="12,141,0,0" VerticalAlignment="Top"/>
+        <Label Content="level" HorizontalAlignment="Left" Margin="15,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.104,0.23"/>
+        <Label Content="publicPrivate" Margin="12,192,675,0" VerticalAlignment="Top" Width="113" Height="26"/>
+        <Label Content="instrument" HorizontalAlignment="Left" Margin="20,223,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.26,0.781"/>
+
+
+        <Label Content="class Table" HorizontalAlignment="Left" Margin="485,13,0,0" VerticalAlignment="Top" Width="113" Height="26"/>
+
+        <TextBox x:Name="classNum_txt" HorizontalAlignment="Left" Margin="115,7,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22" RenderTransformOrigin="0.499,-0.246"/>
+        <TextBox x:Name="dayAndHour_txt" HorizontalAlignment="Left" Margin="115,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22"/>
+        <TextBox x:Name="id_txt" HorizontalAlignment="Left" Margin="115,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166"  Height="22"/>
+        <TextBox x:Name="studentId_txt" HorizontalAlignment="Left" Margin="115,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox  x:Name="NumberOfSessions_txt" HorizontalAlignment="Left" Margin="115,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+        <TextBox x:Name="Tuition_txt" HorizontalAlignment="Left" Margin="115,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22"/>
+        <TextBox x:Name="level_txt" HorizontalAlignment="Left" Margin="115,169,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="166" Height="22" RenderTransformOrigin="0.505,0.714"/>
+        <TextBox x:Name="publicPrivate_txt" HorizontalAlignment="Left" Margin="115,237,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22" />
+        <TextBox x:Name="instrument_txt" HorizontalAlignment="Left" Margin="115,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"  Width="166" Height="22"/>
+
+    </Grid>
+</Window>
